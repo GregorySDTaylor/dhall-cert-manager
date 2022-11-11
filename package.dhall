@@ -3,6 +3,8 @@
 , ACMEChallengeSolverDNS01Union = ./src/ACMEChallengeSolverDNS01Union.dhall
 , ACMEChallengeSolverDNS01Cloudflare =
     ./src/ACMEChallengeSolverDNS01Cloudflare.dhall
+, ACMEExternalAccountBinding = ./src/ACMEExternalAccountBinding.dhall
+, ACMEIssuer = ./src/ACMEIssuer.dhall
 , ACMEIssuerDNS01ProviderCloudflare =
     ./src/ACMEIssuerDNS01ProviderCloudflare.dhall
 , ACMEIssuerDNS01ProviderCloudflareApiKey =
