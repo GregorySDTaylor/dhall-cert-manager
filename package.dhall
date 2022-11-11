@@ -14,6 +14,7 @@
 , ACMEIssuerSpec = ./src/ACMEIssuerSpec.dhall
 , CertificateDNSNameSelector = ./src/CertificateDNSNameSelector.dhall
 , CNAMEStrategy = ./src/CNAMEStrategy.dhall
+, Issuer = ./src/Issuer.dhall
 , IssuerSpecUnion = ./src/IssuerSpecUnion.dhall
 , SecretKeySelector = ./src/SecretKeySelector.dhall
 }
