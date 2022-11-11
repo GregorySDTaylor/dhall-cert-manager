@@ -11,7 +11,9 @@
     ./src/ACMEIssuerDNS01ProviderCloudflareApiKey.dhall
 , ACMEIssuerDNS01ProviderCloudflareApiToken =
     ./src/ACMEIssuerDNS01ProviderCloudflareApiToken.dhall
+, ACMEIssuerSpec = ./src/ACMEIssuerSpec.dhall
 , CertificateDNSNameSelector = ./src/CertificateDNSNameSelector.dhall
 , CNAMEStrategy = ./src/CNAMEStrategy.dhall
+, IssuerSpecUnion = ./src/IssuerSpecUnion.dhall
 , SecretKeySelector = ./src/SecretKeySelector.dhall
 }
