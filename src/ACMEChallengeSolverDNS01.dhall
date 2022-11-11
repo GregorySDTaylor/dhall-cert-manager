@@ -1,4 +1,10 @@
-let ACMEChallengeSolverDNS01Cloudflare =
-      ./ACMEChallengeSolverDNS01Cloudflare.dhall
+let ACMEChallengeSolverDNS01Union = ./ACMEChallengeSolverDNS01Union.dhall
 
-in  { Type = < Cloudflare : ACMEChallengeSolverDNS01Cloudflare.Type > }
+let CertificateDNSNameSelector = ./CertificateDNSNameSelector.dhall
+
+in  { Type =
+        { selector : Optional CertificateDNSNameSelector.Type
+        , dns01 : ACMEChallengeSolverDNS01Union.Type
+        }
+    , default.selector = None CertificateDNSNameSelector.Type
+    }
