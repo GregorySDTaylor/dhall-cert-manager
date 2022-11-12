@@ -17,4 +17,16 @@
 , Issuer = ./src/Issuer.dhall
 , IssuerSpecUnion = ./src/IssuerSpecUnion.dhall
 , SecretKeySelector = ./src/SecretKeySelector.dhall
+, Certificate = ./src/Certificate.dhall
+, CertificateAdditionalOutputFormat =
+    ./src/CertificateAdditionalOutputFormat.dhall
+, CertificateKeystores = ./src/CertificateKeystores.dhall
+, CertificateOutputFormatType = ./src/CertificateOutputFormatType.dhall
+, CertificatePrivateKey = ./src/CertificatePrivateKey.dhall
+, CertificateSecretTemplate = ./src/CertificateSecretTemplate.dhall
+, CertificateSpec = ./src/CertificateSpec.dhall
+, ObjectReference = ./src/ObjectReference.dhall
+, PrivateKeyAlgorithm = ./src/PrivateKeyAlgorithm.dhall
+, PrivateKeyEncoding = ./src/PrivateKeyEncoding.dhall
+, X509Subject = ./src/X509Subject.dhall
 }
